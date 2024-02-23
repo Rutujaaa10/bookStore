@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "name": "Believe Me",
+        "image": "product-1.jpg",
+        "price": 600
+      
+    },
+    {
+        "id": 2,
+        "name": "Reveal Me",
+        "image": "product-2.jpg",
+        "price": 500
+    },
+    {
+        "id": 3,
+        "name": "Fracture Me",
+        "image": "product-3.jpg",
+        "price": 400
+    },
+    {
+        "id": 4,
+        "name": "Imagine Me",
+        "image": "product-4.jpg",
+        "price": 500
+    },
+    {
+        "id": 5,
+        "name": "Defy Me",
+        "image": "product-5.jpg",
+        "price": 500
+    },
+    {
+        "id": 6,
+        "name": "Shadow Me",
+        "image": "product-6.jpg",
+        "price": 500
+    },
+
+    {
+        "id": 7,
+        "name": "Ignite Me",
+        "image": "product-7.jpg",
+        "price": 389
+    },
+    {
+        "id": 8,
+        "name": "Shatter Me",
+        "image": "product-8.jpg",
+        "price": 400
+    },
+    {
+        "id": 9,
+        "name": "Destroy Me",
+        "image": "product-9.jpg",
+        "price": 300
+    },
+    {
+        "id": 10,
+        "name": "Twisted hate",
+        "image": "product-10.png",
+        "price": 600
+    },
+    {
+        "id": 11,
+        "name": "Credence",
+        "image": "product-11.jpg",
+        "price": 400
+    },
+    {
+        "id": 12,
+        "name": "King of Greed",
+        "image": "product-12.jpg",
+        "price": 600
+    }
+ 
+]

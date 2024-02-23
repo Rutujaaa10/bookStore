@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book store</title>
+    <style>
+
+.container.active{
+     right: 0;
+  }
+      
+.container {
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    z-index: 10000;
+    height: 100%;
+    width: 100%;
+    border: thin;
+    border-color: #333;
+}
+
+.container.active{
+     right: 0;
+  }
+
+/* Style the heading */
+h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+}
+
+/* Style the labels */
+label {
+    
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Style the input fields */
+.box {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+
+}
+
+/* Style the submit button */
+.registerbtn {
+    width: 100%;
+    padding: 10px;
+    background-color: #219150;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.registerbtn:hover{
+    background: #27ae60;
+}
+
+/* Style the sign-in link */
+.signin a {
+    text-decoration: none;
+    color: #27ae60;
+}
+
+.container .close-reg-btn{
+    position:static;
+    top: 1.5rem; right:2.5rem;
+    font-size: 5rem;
+    color: var(--dark-color);
+    cursor: pointer;
+   }
+
+
+    </style>
+</head>
+<body>
+    <form>
+        <div class="container">
+            <div id="close-reg-btn" class='fas fa-times-circle' style='font-size:36px;color:rgb(66, 64, 64)'></div>
+            <h1>Register</h1>
+           
+            <label for="username"><b>Username</b></label>
+            <input type="text" placeholder="Enter username" class="box" name="username" id="username" >
+           
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" class="box"name="psw" id="psw" >
+
+            <button type="submit" onclick="fun()" class="registerbtn">Register</button>
+            <p id="Register">Already have an account?<a href="index.html">Sign in</a>.</p>
+        
+        </div>
+    
+        <script>
+            function fun(){
+                let username = document.getElementById('username').value;
+                let psw = document.getElementById('psw').value;
+                //local storage
+                localStorage.setItem('username',username);
+                localStorage.setItem('psw',psw);
+                document.getElementById("Register").innerHTML=("Successful")
+            }
+        </script>
+   </form>
+ 
+</body>
+</html>
+
+    
